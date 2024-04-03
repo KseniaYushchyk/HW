@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; //*чому не спрацювало для відступів між елементами контейнера?*//
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e699ff;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #e699ff;
+    font-size: 50px;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aba0ff;
+    width: 25%;
+    font-size: 30px;
+    color: white;
+}
