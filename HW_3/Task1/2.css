@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+header, footer{
+    height: 15vh;
+}
+div{
+    height: 70vh;
+    display: flex;
+}
+section{
+    height: 100%;
+    width: 33vw;
+}
+.section-1, .section-3{
+    background: #78786F;
+}
+.section-2{
+    background: #61615C;
+}

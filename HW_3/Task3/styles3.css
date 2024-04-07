@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+div{
+    height: 100vh;
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 20px;
+}
+#pink{
+    background-color: rgba(231, 117, 190, 0.87);
+}
+#black{
+    background-color: rgba(19, 4, 4, 0.87);
+    color: white;
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+    width: 90vw;
+    margin-bottom: 10px;
+}

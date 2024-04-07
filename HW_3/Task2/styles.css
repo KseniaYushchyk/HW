@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 18px;
+}
+p, h1,a{
+   margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+#red{
+    background-color: #cb4d13;
+}
+#blue{
+    background-color: #0abcc4;
+}
+#green{
+    background-color: #16ff73;
+}

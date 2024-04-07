@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+header{
+    height: 15vh;
+}
+.container{
+    height: 75vh;
+    display: flex;
+}
+.section-1, .section-2, .section-3{
+    height: 100%;
+    width: 33vw;
+}
+.section-1, .section-3{
+    display: grid;
+}
+.box-1, .box-3{
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+}
+.box-2{
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+}
+.section-2{
+    background: #61615C;
+}
+.box-4{
+    background: #78786F;
+}
+.box-5{
+    background: #828569;
+}
+.footer{
+    height: 10vh;
+}
