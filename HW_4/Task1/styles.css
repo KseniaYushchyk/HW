@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+.font{
+    font-family: "KoHo", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bgphoto{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*start of styles for container 1*/
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container-1{
+    background: url("background1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-1 {
+    height: 40vh;
+    width: 63vw;
+    display: flex;
+}
+.box-1{
+    height: 100%;
+    width: 50%;
+    background: url("forBox-1.png");
+}
+.box-2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 44px;
+}
+.text-1{
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 44px;
+}
+.nameButton{
+    color: #000;
+    font-size: 30px;
+}
+button{
+    height: 7.5vh;
+    width: 22vw;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+button:hover{
+    cursor: pointer;
+}
+
+/*end of styles for container 1*/
+
+/*start of styles for container 2*/
+
+.container-2{
+     background: url("background2.png");
+}
+.wrapper-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.video{
+    height: 52.3vh;
+}
+.video, .info{
+    margin-top: 85px;
+    width: 45vw;
+}
+.info{
+    color: #000;
+    font-size: 26px;
+}
+
+/*end of styles for container-2*/
+
+/*start of styles for container-3*/
+
+.container-3{
+    background: url("background3.png");
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 68vh;
+    width: 30vw;
+    background: rgba(83, 83, 83, 0.40);
+    overflow: hidden;
+    padding: 25px;
+    color: #000;
+    font-size: 26px;
+    margin: 100px 35px;
+}
+.photo{
+    width: 100%;
+    height: 214px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo-1{
+    background: url("box1.png");
+}
+.photo-2{
+    background: url("box-2.png");
+}
+.photo-3{
+    background: url("box-3.png");
+}
+h3{
+    margin-top: 32px;
+}
+.info-box{
+    margin-top: 24px;
+}
+.cost-box{
+    margin-top: 62px;
+}
+.button-box{
+    margin-top: 25px;
+}
+.button-box-text{
+    color: #6B6666;
+    font-size: 26px;
+}
+h3{
+    font-weight: normal;
+}
+
+/*end of styles for container-3*/

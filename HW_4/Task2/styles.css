@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100,
+            "YTLC" 500;
+}
+form{
+    height: 85vh;
+    width: 22%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+}
+.info{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 8vh;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.logo-img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 42px;
+    box-sizing: border-box;
+}
+input{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgb(250, 250, 250);
+    border-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0.8px;
+    width: 100%;
+    height: 5vh;
+    padding: 1px 8px;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+}
+input[type="password"] {
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    background-color: rgb(98, 180, 250);
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    height: 5vh;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.span-bottom{
+    margin-bottom: 15px;
+}
+.or{
+    color: #6b6b6b;
+}
+.facebook-login{
+    color: rgb(56, 81, 133);
+    cursor: pointer;
+    font-weight: 700;
+}
+.facebook-login::before {
+    content: url(facebook-logo.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.password-forget{
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.sign-in{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span-sign-in{
+    margin-left: 2px;
+    color: #6a6ad9;
+    font-weight: 550;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.info-sign-in{
+    padding: 0 10px;
+    font-weight: 600;
+}
