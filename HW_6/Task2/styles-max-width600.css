@@ -1,0 +1,14 @@
+@media  screen and (max-width: 600px) {
+    .container-2{
+        flex-direction: column;
+    }
+    .box-1{
+        margin-bottom: 20px;
+        height: 80%;
+        width: 100%;
+    }
+    .box-2{
+        height: 20%;
+        width: 100%;
+    }
+}

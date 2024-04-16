@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 18px;
+    }
+    header{
+        height: 40vh;
+    }
+    nav{
+        width: 100%;
+        height: calc(35% - 5px);
+    }
+    .banner{
+        height: 65%;
+    }
+    ul{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    li{
+        font-size: 14px;
+        width: 100%;
+        height: calc(25% - 1px);
+        margin-right: 0;
+        }
+    main{
+        height: 50vh;
+        flex-direction: column;
+    }
+    article{
+        height: calc(25% - 5px);
+        width: 100%;
+    }
+    footer{
+        font-size: 14px;
+        height: 10vh;
+        width: 100%;
+        margin-top: 5px;
+    }
+}
